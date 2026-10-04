@@ -1,0 +1,21 @@
+{
+  "text": "[Unrecognized speech/Audio silent]",
+  "language": "en",
+  "language_probability": 0.0,
+  "duration_seconds": 4.0,
+  "processing_time_seconds": 1.457,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.0,
+      "text": "[Unrecognized speech/Audio silent]",
+      "confidence": 0.0,
+      "words": []
+    }
+  ],
+  "engine": "speech-recognition-fallback",
+  "model_size": "web-api",
+  "fallback_triggered": true,
+  "fallback_reason": "open() got an unexpected keyword argument 'metadata_errors'"
+}

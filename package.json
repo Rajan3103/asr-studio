@@ -1,0 +1,12 @@
+{
+  "name": "asr-studio",
+  "version": "1.0.0",
+  "description": "Next-Generation Automatic Speech Recognition (ASR) Platform with FastAPI & React Node Frontend",
+  "author": "Karthig Rajan S <rajankarthig@gmail.com>",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "backend": "uvicorn asr_tool.api:app --host 0.0.0.0 --port 8000 --reload"
+  }
+}
