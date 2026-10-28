@@ -15,7 +15,7 @@ def test_root_endpoint():
     response = client.get("/")
     assert response.status_code == 200
     data = response.json()
-    assert data["service"] == "ASR Tool Microservice"
+    assert data["service"] == "ASR Studio REST API"
     assert data["status"] == "online"
 
 
